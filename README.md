@@ -1,2 +1,2 @@
-# gulksie.github.io
-The home of gulk.ca cause i dont wanna pay for that shit
+# gulksie.github.io / gulk.ca
+The home of gulk.ca cause I don't wanna pay for that shit

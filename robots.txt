@@ -1,3 +1,2 @@
 User-agent: *
-Disallow: /projectmicelli/
-Disallow: /404/
+Disallow: /img/
