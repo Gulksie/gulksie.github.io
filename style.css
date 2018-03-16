@@ -1,0 +1,51 @@
+p, h1 {
+	color: blue;
+}
+
+code {
+	background-color: #EFF0F1;
+	color: black;
+}
+
+code.two code.three {
+	display: inline-block;
+}
+
+code.two {
+	margin-right: 3em;
+}
+
+body {
+	background-color: #E0E0E0;
+	background-image: url("http://gulk.ga/img/background.png");
+}
+
+p {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+	font-family: 'Bree Serif', serif;
+	text-align: center;
+	text-decoration: underline;
+}
+
+form {
+	text-align: center;
+}
+
+a:visited {
+	color: #c97614;
+}
+
+a:link {
+	color: #e5a04e;
+}
+
+a:hover {
+	color: #fc7955;
+}
+
+a:active {
+	color: #ef5328;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Lesson 2: Input and Output</title>
+		<link rel="stylesheet" type="text/css" href="http://www.gulk.ca/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+	</head>
+	
+	<body>
+		<!--Header copy/paste here -->
+		<div id="header">
+            <style>
+                #header {
+                    border-bottom: 1px solid #000;
+                    top: 0;
+                    margin: auto;
+                    background-image: none;
+                    background-color: #E0E0E0;
+                }
+
+                #header img {
+                    margin-left: auto;
+                    margin-right: auto;
+                    display: block;
+                }
+            </style>
+			<a href="http://gulk.ca"><img src="http://gulk.ca/img/logo.png" width="433.5" height="100"></a>
+		</div>
+		
+		<h5>Click <a href="#input">here</a> to skip to input, or <a href="#both">here</a> to skip to where you combine them both!</h5>
+		<div id="output">
+			<h1>Output</h1>
+
+            <p>In the previous lesson, you wrote your first program. It made the computer spit out the text "hello world!"
+             But what did you actually do? Well, you told the computer to write a string (more on that later) to the console.
+            You do this by using the <code>print</code> command. Try it out yourself! Change the text between the quotes to
+            whatever you want, and the computer will spit that out! AS we learn more, this command will become even more useful.
+            </p>
+        </div>
+
+        <br><br>
+
+        <div id="input">
+            <h1>Input</h1>
+
+            <p>There are two commands to take input in python 2.7, one of which you should never use. This is removed and the other
+            one is renamed in python 3. To take input, use the following code. Remember, python 2 on the left, python 3 on the right.</p>
+
+            <code class="two">raw_input()</code>   <code class="three">input()</code>
+
+            <p>Now run your program. You should notice it doesn't do anything. Type anything you want in, and hit return or enter.
+            You should notice that still, nothing happened. This is because we are not actually processing the input. For now,
+            lets just assign it to a variable. Do: </p>
+
+            <code class="two">input = raw_input()</code>  <code class="three">input = input()</code>
+
+            <p>You should notice that, after you run your program, nothing changed. This is because we still aren't doing anything
+            with the input. Also, note that you can prompt the user for an input by putting a string(text inside quotation marks)
+            inside the brackets. See examples below.</p>
+        </div>
+
+        <br><br>
+
+        <div id="both">
+            <h1>Putting it together</h1>
+
+            <p>Now, you know how to take input and write output. Now, what if you want to do something with your input?
+            Well, you have to use your <code>print</code> command from before! Try this sample code to say hello to someone.</p>
+
+            <code class="two">name = raw_input("What is your name?   ")<br>print "Hello, " + name</code> <code class="three">name = input("What is your name?   ")<br> print("Hello, " + name)</code>
+
+
+        </div>

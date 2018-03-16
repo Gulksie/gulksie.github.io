@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+
+    </head>
+	<body>
+		<!--Header copy/paste here -->
+		<div id="header">
+            <style>
+                #header {
+                    border-bottom: 1px solid #000;
+                    top: 0;
+                    margin: auto;
+                }
+
+                #header img {
+                    margin-left: auto;
+                    margin-right: auto;
+                    display: block;
+                }
+            </style>
+			<a href="http://gulk.ca"><img src="http://gulk.ca/img/logo.png" width="433.5" height="100"></a>
+		</div>
+	</body>
+</html>
