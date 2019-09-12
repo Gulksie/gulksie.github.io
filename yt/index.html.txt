@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta http-equiv="Refresh" content="0; url=https://www.youtube.com/channel/UCyDC4PwXDAn2Yv-Gk1AO9VQ" />
+	</head>
+	<body></body>
+</html>
