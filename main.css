@@ -92,7 +92,7 @@ a:link, a:visited, a:hover, a:active{
     flex-grow: 85;
     margin: 0;
     margin-left: 2rem;
-    margin-right: 2rem;
+    margin-right: 0;
     overflow-y: scroll;
 }
 
@@ -102,6 +102,10 @@ a:link, a:visited, a:hover, a:active{
 
 #beforeExpandp {
     margin-bottom: 0;
+}
+
+.subsection {
+    margin-right: 1rem;
 }
 
 .subsection p{
