@@ -15,8 +15,6 @@ THEME = "theme"
 STATIC_PATHS = ['static']
 EXTRA_PATH_METADATA = {'static/CNAME' : {'path': 'CNAME'},}
 
-CATEGORY_SAVE_AS = ''
-CATEGORIES_SAVE_AS = ''
 AUTHOR_SAVE_AS = ''
 AUTHORS_SAVE_AS = ''
 TAG_SAVE_AS = ''
